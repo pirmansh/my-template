@@ -84,7 +84,7 @@ nav{
 }
 
 
-/* Landing Page  */
+/* Landing Page home.html */
 .bg_landing_page{
     margin-top: 0 !important;
     width: 100%;
@@ -114,8 +114,8 @@ nav{
 
 .landing_page .descriptions{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 200;
+    font-size: 22px;
     color: var(--color-link);
 
 }
@@ -132,6 +132,17 @@ nav{
     }
     .nav_button{
         display: block;
+    }
+
+    /* Landing Page home.html */
+    .landing_page .title {
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .landing_page .descriptions {
+        padding: 0 20px;
+        font-size: 18px;
     }
 }
 
