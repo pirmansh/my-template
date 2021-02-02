@@ -4,10 +4,10 @@
 (function () {
   function init() {
       const router = new Router([
-          new Route('home', 'home.html', true),            
-          new Route('login', 'login.html'),            
-          new Route('signup', 'signup.html'),
-          new Route('contact', 'contact.html')
+          new Route('home', 'home.html', true),                      
+          new Route('contact', 'contact.html'),
+          new Route('login', 'login.html'),
+          new Route('signup', 'signup.html')
       ]);
   }
   init();
